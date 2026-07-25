@@ -92,7 +92,10 @@ href="images/favicon.png">
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body data-bs-spy="scroll"
+    data-bs-target=".navbar"
+    data-bs-offset="90"
+    tabindex="0">
 
     <!-- ===================== NAVBAR ===================== -->
 
@@ -101,7 +104,9 @@ href="images/favicon.png">
         <div class="container-lg">
 
             <a class="navbar-brand" href="#">
+                <!-- <img src="images/logo11.png" height="55"> -->
                 <img src="images/logo1.png" height="55">
+
             </a>
 
             <button class="navbar-toggler border-0 shadow-none"
@@ -121,11 +126,11 @@ href="images/favicon.png">
                     </li>
 
                     <li class="nav-item" >
-                        <a class="nav-link" href="#" >About</a>
+                        <a class="nav-link" href="#about" >About</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
 
                     <li class="nav-item" >
@@ -133,7 +138,7 @@ href="images/favicon.png">
                     </li>
 
                     <li class="nav-item" >
-                        <a class="nav-link" href="#" >Contact</a>
+                        <a class="nav-link" href="#contact" >Contact</a>
                     </li>
 
                 </ul>
@@ -154,7 +159,7 @@ href="images/favicon.png">
     
     <!-- ===================== HERO ===================== -->
     
-    <section class="hero abc" >
+    <section class="hero abc"  id="home" >
  <img src="images/bgimage.png" class="hero-bg img-fluid">
 
     <div class="container-lg">
@@ -233,7 +238,12 @@ href="images/favicon.png">
             ABOUT SECTION
 ======================================= -->
 <br>
-<section class="about section-padding">
+
+
+
+
+<div class="container">
+<section class="about section-padding" id="about">
 
     <div class="container-lg">
 
@@ -284,6 +294,17 @@ href="images/favicon.png">
                 </h2>
 
                 <p class="section-text">
+
+  <!-- Digitron Automation is a trusted engineering company
+                        delivering Industrial Automation, IoT, Embedded
+                        Systems and Custom Software Solutions.
+
+                        Since 2007, we have helped industries improve
+                        productivity, reduce downtime and accelerate
+                        digital transformation through innovative
+                        engineering. -->
+
+
 
                     Digitron Automation is a Pune-based engineering and technology company specializing in Industrial Automation, IoT Solutions, Embedded Systems, and Custom Software Development.
 
@@ -341,6 +362,8 @@ href="images/favicon.png">
 
 </section>
 
+</div>
+
 
 
 
@@ -348,7 +371,10 @@ href="images/favicon.png">
         SERVICES
 ===========================-->
 
-<section class="services section-padding">
+
+
+<div class="container">
+<section class="services section-padding" id="services">
 
     <div class="container-lg">
 
@@ -550,6 +576,8 @@ href="images/favicon.png">
 
 </section>
 
+
+</div>
 
 
 
@@ -1937,7 +1965,7 @@ href="images/favicon.png">
         CONTACT SECTION
 ======================================= -->
 
-<section class="contact-section section-padding">
+<section class="contact-section section-padding" id="contact">
 
 
     <div class="container">
@@ -2019,7 +2047,10 @@ href="images/favicon.png">
                             </h6>
 
                             <p>
-                                Pune, Maharashtra, India
+                            Flat No 103, Bhosale Industries, Narmada Recidancy, SNo. 27/1, Dhayari Narhe Rd, opp. Khedekar Industry, Narhe, Pune,
+                          <br>  <span> Maharashtra 411041 </span>
+                            
+                               <!-- Pune, Maharashtra, India -->
                             </p>
 
                         </div>
@@ -2046,7 +2077,8 @@ href="images/favicon.png">
                             </h6>
 
                             <p>
-                                +91 XXXXX XXXXX
+                                
+                                +91 9372446043
                             </p>
 
                         </div>
@@ -2234,15 +2266,20 @@ href="images/favicon.png">
 
                 <div class="footer-brand">
 
+ <a class="navbar-brand" href="#">
+                <!-- <img src="images/logo11.png" height="55"> -->
+                <img src="images/logo11.png" height="65">
 
-                    <h2>
+            </a>
+
+                    <!-- <h2>
 
                         Digitron
                         <span>
                             Automation
                         </span>
 
-                    </h2>
+                    </h2> -->
 
 
                     <p>
@@ -2306,21 +2343,21 @@ href="images/favicon.png">
 
 
                     <li>
-                        <a href="#">
+                        <a href="#home">
                             Home
                         </a>
                     </li>
 
 
                     <li>
-                        <a href="#">
+                        <a href="#about">
                             About
                         </a>
                     </li>
 
 
                     <li>
-                        <a href="#">
+                        <a href="#services">
                             Services
                         </a>
                     </li>
@@ -2334,7 +2371,7 @@ href="images/favicon.png">
 
 
                     <li>
-                        <a href="#">
+                        <a href="#contact">
                             Contact
                         </a>
                     </li>
@@ -2439,7 +2476,7 @@ href="images/favicon.png">
 
                         <i class="bi bi-telephone"></i>
 
-                        +91 XXXXX XXXXX
+                        +91 9372446043
 
                     </li>
 
@@ -2485,6 +2522,215 @@ href="images/favicon.png">
 
 
 
+<!-- ======================================
+        ABOUT SECTION (NEW PREMIUM)
+======================================= -->
+<!-- <section class="about section-padding" id="about">
+
+    <div class="container-lg">
+
+        <div class="row align-items-center gy-5">
+
+        
+            <div class="col-lg-6">
+
+                <div class="about-image-wrapper" data-aos="fade-right">
+
+              
+                    <div class="about-main-image">
+
+                        <img src="images/about-industrial.jpg"
+                             class="img-fluid"
+                             alt="Digitron Automation">
+
+                    </div>
+
+              
+
+                    <div class="experience-card">
+
+                        <h2>19+</h2>
+
+                        <span>Years of Excellence</span>
+
+                    </div>
+
+                 
+                    <div class="floating-tech-card">
+
+                        <div class="icon">
+
+                            <i class="bi bi-cpu-fill"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h6>Industrial Automation</h6>
+
+                            <small>PLC • SCADA • HMI</small>
+
+                        </div>
+
+                    </div>
+
+                    <div class="floating-tech-card card-two">
+
+                        <div class="icon">
+
+                            <i class="bi bi-wifi"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h6>IoT Solutions</h6>
+
+                            <small>Cloud Monitoring</small>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+          
+
+            <div class="col-lg-6">
+
+                <div class="about-content" data-aos="fade-left">
+
+                    <span class="section-subtitle">
+
+                        ABOUT DIGITRON
+
+                    </span>
+
+                    <h2 class="section-title">
+
+                        Engineering Solutions Built Around Your Business
+
+                    </h2>
+
+                    <p class="section-text">
+
+                        Digitron Automation is a trusted engineering company
+                        delivering Industrial Automation, IoT, Embedded
+                        Systems and Custom Software Solutions.
+
+                        Since 2007, we have helped industries improve
+                        productivity, reduce downtime and accelerate
+                        digital transformation through innovative
+                        engineering.
+
+                    </p>
+
+                  
+
+                    <div class="row g-3 mt-4">
+
+                        <div class="col-sm-6">
+
+                            <div class="about-feature">
+
+                                <i class="bi bi-gear-fill"></i>
+
+                                <div>
+
+                                    <h6>Industrial Automation</h6>
+
+                                    <p>PLC, SCADA & HMI Systems</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-6">
+
+                            <div class="about-feature">
+
+                                <i class="bi bi-cloud-fill"></i>
+
+                                <div>
+
+                                    <h6>IoT Solutions</h6>
+
+                                    <p>Remote Monitoring</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-6">
+
+                            <div class="about-feature">
+
+                                <i class="bi bi-motherboard-fill"></i>
+
+                                <div>
+
+                                    <h6>Embedded Systems</h6>
+
+                                    <p>Hardware & Firmware</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-6">
+
+                            <div class="about-feature">
+
+                                <i class="bi bi-code-slash"></i>
+
+                                <div>
+
+                                    <h6>Software Development</h6>
+
+                                    <p>Enterprise Applications</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="mt-5">
+
+                        <a href="#contact"
+                           class="btn btn-primary-custom">
+
+                            Learn More
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+ -->
+
+
+
 
 
 
@@ -2512,6 +2758,9 @@ href="images/favicon.png">
     <div class="loader-circle"></div>
 
 </div>
+
+
+
 
 
 </body>
