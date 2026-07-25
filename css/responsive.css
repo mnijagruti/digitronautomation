@@ -1,0 +1,455 @@
+/*==========================================
+            LARGE DEVICES
+==========================================*/
+@media (max-width:1200px){
+
+.hero-title{
+    font-size:54px;
+}
+
+.hero-dashboard{
+    transform:scale(.9);
+}
+
+.section-title{
+    font-size:40px;
+}
+
+}
+
+
+/*==========================================
+            LAPTOP
+==========================================*/
+@media (max-width:992px){
+
+.custom-navbar{
+    background:#081C3A;
+    padding:15px 0;
+}
+
+.navbar-collapse{
+    margin-top:20px;
+    text-align:center;
+    background:#081C3A;
+    padding:20px;
+    border-radius:15px;
+}
+
+.navbar-nav{
+    gap:12px;
+}
+
+.btn-getquote{
+    margin-top:20px;
+    display:inline-block;
+}
+
+.hero{
+    /* padding:140px 0 80px; */
+    text-align:center;
+}
+
+.hero-title{
+    font-size:46px;
+}
+
+.hero-text{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.hero-features{
+    grid-template-columns:1fr;
+    max-width:350px;
+    margin:35px auto;
+}
+
+.hero-buttons{
+    justify-content:center;
+}
+
+.hero-dashboard{
+    margin-top:70px;
+    transform:scale(.90);
+}
+
+.about-image{
+    margin-bottom:60px;
+}
+
+.image-card{
+    position:relative;
+    width:100%;
+    height:380px;
+}
+
+.experience-box{
+    right:20px;
+    bottom:-40px;
+}
+
+.section-title{
+    font-size:36px;
+}
+
+}
+
+
+/*==========================================
+            TABLET
+==========================================*/
+@media (max-width:768px){
+
+.hero-title{
+    font-size:38px;
+    line-height:1.3;
+}
+
+.hero-tag{
+    font-size:13px;
+    padding:10px 18px;
+}
+
+.hero-text{
+    font-size:16px;
+    line-height:28px;
+}
+
+.hero-dashboard{
+    transform:scale(.78);
+    height:430px;
+}
+
+.main-card{
+    width:320px;
+}
+
+.chart-bars span{
+    width:30px;
+}
+
+.floating-card{
+    padding:15px 18px;
+}
+
+.floating-card h6{
+    font-size:14px;
+}
+
+.section-padding{
+    padding:80px 0;
+}
+
+.section-title{
+    font-size:32px;
+}
+
+.image-card{
+    height:320px;
+}
+
+.experience-box{
+    width:150px;
+    height:150px;
+}
+
+.experience-box h2{
+    font-size:42px;
+}
+
+.service-card{
+    padding:30px;
+}
+
+}
+
+
+/*==========================================
+            MOBILE
+==========================================*/
+@media (max-width:576px){
+
+.hero{
+    /* padding-top:120px; */
+    padding-top:90px;
+    
+}
+
+.hero-title{
+    font-size:30px;
+}
+
+.hero-buttons{
+    flex-direction:column;
+}
+
+.hero-buttons .btn{
+    width:100%;
+}
+
+.hero-dashboard{
+    transform:scale(.62);
+    margin-top:10px;
+    height:320px;
+}
+
+.main-card{
+    width:290px;
+    padding:22px;
+}
+
+.chart-bars{
+    height:120px;
+}
+
+.chart-bars span{
+    width:24px;
+}
+
+.status-row h3{
+    font-size:22px;
+}
+
+.card-one{
+    left:-5px;
+}
+
+.card-two{
+    right:-5px;
+}
+
+.card-three{
+    left:5px;
+}
+
+.image-card{
+    height:280px;
+}
+
+.image-card i{
+    font-size:60px;
+}
+
+.image-card h5{
+    font-size:22px;
+}
+
+.experience-box{
+    width:120px;
+    height:120px;
+    bottom:-20px;
+}
+
+.experience-box h2{
+    font-size:32px;
+}
+
+.experience-box span{
+    font-size:12px;
+}
+
+.section-title{
+    font-size:28px;
+}
+
+.section-text{
+    font-size:15px;
+    line-height:28px;
+}
+
+.service-card{
+    text-align:center;
+}
+
+.service-icon{
+    margin:0 auto 20px;
+}
+
+}
+
+
+
+
+
+
+
+/*========================================
+        EXTRA MOBILE POLISH
+========================================*/
+
+
+@media(max-width:576px){
+
+
+    /* Navbar */
+
+    .navbar-brand{
+
+        font-size:22px;
+
+    }
+
+
+    .navbar-toggler{
+
+        border:1px solid rgba(255,255,255,.5);
+
+    }
+
+
+
+    /* Hero */
+
+    .hero-title{
+
+        font-size:32px;
+
+        line-height:1.25;
+
+    }
+
+
+    .hero-text{
+
+        font-size:15px;
+
+        line-height:26px;
+
+    }
+
+
+
+    /* Sections */
+
+    .section-padding{
+
+        padding:70px 0;
+
+    }
+
+
+    .section-subtitle{
+
+        font-size:13px;
+
+    }
+
+
+    .section-title{
+
+        font-size:28px;
+
+        line-height:1.3;
+
+    }
+
+
+
+    /* Dashboard */
+
+    .hero-dashboard{
+
+        transform:scale(.55);
+
+        height:280px;
+
+        margin-top:0;
+
+    }
+
+
+
+    /* Floating Cards */
+
+    .floating-card{
+
+        display:none;
+
+    }
+
+
+
+    /* About */
+
+    .about-image{
+
+        height:320px;
+
+    }
+
+
+    .experience-box{
+
+        right:10px;
+
+        bottom:-15px;
+
+    }
+
+
+
+    /* Cards */
+
+    .service-card,
+    .solution-card,
+    .industry-card,
+    .process-card,
+    .testimonial-card{
+
+        padding:25px 20px;
+
+    }
+
+
+
+    /* Contact */
+
+    .contact-info-card,
+    .contact-form{
+
+        padding:25px;
+
+    }
+
+
+    /* Footer */
+
+    .footer-section{
+
+        text-align:center;
+
+    }
+
+
+    .social-links{
+
+        justify-content:center;
+
+    }
+
+
+    .footer-contact li{
+
+        justify-content:center;
+
+    }
+
+
+
+    /* Back Button */
+
+    #backTop{
+
+        right:15px;
+
+        bottom:15px;
+
+        width:45px;
+
+        height:45px;
+
+    }
+
+
+}
